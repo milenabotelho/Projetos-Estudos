@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/icon">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilos.css">
+
+    <link rel="stylesheet" href="./responsivo.css">
+
+
+    <title>Detalhes</title>
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./mario-bros.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho"> 
+        
+        <a>
+            <img class="logo" src="./logo-chapeu-mario.png" alt="logo chapéu Mário">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="./index.html" type="button">Home</a> </li>
+                <button class="botao-jogo" onclick="funcaoAbrirModal()">Assistir</button>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="container">
+        <!-- <button class="botao-jogo" onclick="funcaoAbrirModal()">Assistir</button> -->
+        </div>
+        <div class="modal" id="abrir-tela">
+            <div class="conteudo-modal">
+                <span class="fechar-modal" onclick="funcaoFecharModal()">X</span>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q21XkobMXLM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+    </main>
+
+</body>
+
+</html>
+<script type="text/javascript" src="script.js"></script>
